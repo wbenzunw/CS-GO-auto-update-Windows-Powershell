@@ -1,9 +1,9 @@
 ﻿$Host.UI.RawUI.WindowTitle = "CS:GO launcher V0.2"
-$SteamCMD = 'C:\SteamCMD\steamcmd.exe'
+$SteamCMD = 'D:\SteamCMD\steamcmd.exe'
 $SteamCMDArgumentList = '+runscript csgo_update.txt'
-$CSGOServer = 'C:\CSGO\srcds.exe'
+$CSGOServer = 'D:\steamcmd\steamapps\common\Counter-Strike Global Offensive Beta - Dedicated Server\srcds.exe'
 $CSGOServerArgumentList = '-condebug -game csgo -console -usercon +game_type 0 +game_mode 1 -tickrate 128 +map de_dust2'
-$CSGOServerConsoleLogFile = 'C:\CSGO\csgo\console.log'
+$CSGOServerConsoleLogFile = 'D:\CSGO\csgo\console.log'
 $UpMsgLn1 = [char]3 + 'MasterRequestRestart'
 $UpMsgLn2 = 'Your server is out of date.  Please update and restart.'
 
